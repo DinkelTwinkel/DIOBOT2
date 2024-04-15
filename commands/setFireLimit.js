@@ -1,7 +1,4 @@
 const { SlashCommandBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } = require('discord.js');
-const kimoIDMaker = require('../patterns/kimoIDMaker');
-const UserData = require('../models/userData');
-const { kimoServerID } = require('../ids.json');
 const Fire = require('../models/activeFires');
 
 module.exports = {
